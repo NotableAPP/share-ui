@@ -10,7 +10,7 @@ width:0;
 div[data-ted-share-type=fls-jam]{width:100vw; height:100vh; background:rgba(1,1,1,.4); position:fixed;top:0;left:0; overflow:scroll; animation:opac .4s linear;}
 div[data-ted-share-type=container]{
 				height:auto;border-bottom:1px solid #6610f2;background:white; transition:0.5s;
-				border-radius:0 0 10px 10px; overflow:hidden; transition:0.9s !important; animation:fromup 0.3s linear;animation-fill-mode: both; 
+				border-radius:0 0 10px 10px; overflow:hidden; animation:fromup 0.3s linear; 
 	}
 div[data-ted-share-type=container] div[data-ted-share-type=head]{
  width:100%;text-align: center;padding:5px;
@@ -90,10 +90,10 @@ input[data-ted-share-type=copy]{
  }
 }
 @keyframes fromup{
- from{
-  margin-top:-500vh;
- }to{
-  margin-top:0px;
+ 10%{
+  transform:scaleX(0.99);
+ }50%{
+  transform:scaleX(1);
  }
 }
 .btn-share{
