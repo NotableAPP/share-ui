@@ -1,4 +1,9 @@
 # ![screen](IMG_20210506_085050.png)
+# getting started
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/NotableApp/share-ui/cdn/default.css">
+<script src="https://cdn.jsdelivr.net/gh/NotableApp/share-ui/cdn/share.js"></script>
+```
 # how it works ?
 A simple snippet will let you create the share ui
 ```js
