@@ -11,7 +11,7 @@ var boost = Ted();
 boost.share({
      text:"Loren ipsum",
      url:"whatever.xyz",
-     title:"your title',
+     title:"your title",
 });
 /* This will create simple ui */
 ```
@@ -40,5 +40,12 @@ boosted.share({
 **Twitter, Whatsapp, Google search , blogger ,Tumblr , reddit , sms ,mail , create note with boosted notable app**
 
 All the above medias are available.Choose the medias from above and use them as Param `alowTo` (array) if you have not defined the allowTo then all medias will selected .
-
+*In code*
+``` javascript
+const medias = ["twitter","bolgger","search","reddit","sms","mail","tumblr","boosted","whatsapp"]
+var method = Ted();
+method.globalSet({
+       allowTo:medias,
+});
+```
  
